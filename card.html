@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Profile Card</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #E0F7FA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  .profile-card {
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: fit-content;
+    max-width: calc(100% - 40px);
+  }
+  .profile-image {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+  }
+  .stats {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #eaeaea;
+    border-bottom: 1px solid #eaeaea;
+    padding: 10px;
+  }
+  .stat-item {
+    text-align: center;
+  }
+  .button-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 10px;
+  }
+  .btn {
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  .btn-outline {
+    background-color: transparent;
+    border: 2px solid #007BFF;
+    color: #007BFF;
+  }
+  .btn-outline:hover {
+    background-color: #007BFF;
+    color: white;
+  }
+  .btn-primary {
+    background-color: #007BFF;
+    color: white;
+    border: 2px solid #007BFF;
+  }
+  .btn-primary:hover {
+    background-color: darken(#007BFF, 10%);
+  }
+</style>
+</head>
+<body>
+<div class="profile-card">
+  <img src="profile.jpg" alt="Profile Image" class="profile-image">
+  <h2>@maeshaw</h2>
+  <p>If you like my work, consider supporting me on PayPal and help me make a dream come true.</p>
+  <div class="stats">
+    <div class="stat-item">
+      <h3>74.3M</h3>
+      <p>Views</p>
+    </div>
+    <div class="stat-item">
+      <h3>17</h3>
+      <p>Rank</p>
+    </div>
+    <div class="stat-item">
+      <h3>45M</h3>
+      <p>Downloads</p>
+    </div>
+  </div>
+  <div class="button-container">
+    <button class="btn btn-outline">Follow</button>
+    <button class="btn btn-primary">View profile</button>
+  </div>
+</div>
+</body>
+</html>

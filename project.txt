@@ -1,0 +1,42 @@
+Job details
+SharePoint Site Development for Case Registration and Diary System
+ 
+We are looking for a SharePoint developer to build a custom SharePoint site that will serve as a Case Registration and Diary System for our organization. The site should be seamlessly integrated with Microsoft Teams and Outlook to ensure smooth collaboration and communication. The ideal candidate will have experience in SharePoint development and be familiar with integrating SharePoint with Teams and Outlook. They should also have knowledge of building custom forms, workflows, and security features in SharePoint. This project requires attention to detail and the ability to create a user-friendly interface. Strong problem-solving skills and the ability to work independently are essential.
+Project Scope: Enhanced Marine Claim / Case Registration and Diary System
+Project Overview
+The objective of this project is to develop an enhanced case registration and diary system that ensures efficient case management and prevents any cases from being lost or buried under workloads. The system should include key functionalities like case registration, automated diary reminders, KPI monitoring, and regular updates to principals. The system should be user-friendly, especially for users with varying levels of computer literacy.
+Key Features
+Case Registration System
+•     Allow users to register new cases and generate unique reference numbers.
+•     Integration with the existing CRS (Case Registration System).
+•     Simplified and intuitive interface for easy case entry.
+Diary System
+•     Automated reminders for case follow-ups and actions.
+•     Customizable reminder intervals (e.g., 21 days, 9 weeks, 7 days).
+•     Notification system to alert users of upcoming actions.
+•     Ensure that quiet or resolved cases are not overlooked.
+KPI Monitoring
+•     Track key performance indicators related to case management.
+•     Issuance of initial advice within 24 hours of service.
+•     Regular updates to principals based on customizable schedules.
+•     Reporting dashboard for KPI metrics.
+Communication Management
+•     Handle high volumes of emails and communications efficiently.
+•     Integration with email systems to log and manage communications related to cases.
+•     Automatic updates to the diary system based on email interactions.
+User Roles and Permissions
+•     Define user roles with specific permissions (e.g., case managers, principals).
+•     Ensure data security and privacy with role-based access control.
+Reporting and Analytics
+•     Generate reports on case statuses, upcoming actions, and KPI metrics.
+•     Exportable reports in various formats (e.g., PDF, Excel).
+•     Analytical tools to identify bottlenecks and improve efficiency.
+Integration with Existing Systems
+•     Seamless integration with the current CRS and CRM systems.
+•     Data synchronization between systems to ensure consistency.
+Technical Requirements
+Platform: Web-based application accessible from any device.
+Database: Robust database to handle high volumes of data.
+User Interface: Intuitive and user-friendly design, suitable for users with varying levels of computer literacy.
+Security: Data encryption, secure user authentication, and role-based access control.
+Scalability: Ability to handle increasing volumes of cases and communications.

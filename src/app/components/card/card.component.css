@@ -1,0 +1,87 @@
+.card {
+    background: linear-gradient(135deg, #e0f7fa 0%, #e1f5fe 100%);
+    border-radius: 15px;
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .card-header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .profile-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+  }
+  
+  .card-body {
+    text-align: center;
+  }
+  
+  .card-body h2 {
+    margin: 0;
+    font-size: 1.5em;
+  }
+  
+  .card-body h3 {
+    margin: 0;
+    font-size: 1em;
+    color: #777;
+  }
+  
+  .card-body p {
+    font-size: 0.9em;
+    color: #555;
+    margin: 20px 0;
+  }
+  
+  .stats {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+  }
+  
+  .stat {
+    text-align: center;
+  }
+  
+  .stat strong {
+    display: block;
+    font-size: 1.2em;
+  }
+  
+  .stat span {
+    display: block;
+    font-size: 0.9em;
+    color: #777;
+  }
+  
+  .actions {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .follow-button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .view-profile-button {
+    background-color: #e0e0e0;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  

@@ -1,0 +1,41 @@
+<a style="cursor: pointer;" routerLink = "/">
+<header class="brand-name">
+  <img class="brand-logo" src="/assets/logo.svg" alt="logo" aria-hidden="true" />
+</header>
+</a>
+<main>
+  <section class="content">
+<section>
+    <form>
+      <!-- <input type="text" placeholder="Filter by city" #filter /> -->
+      <input 
+        type="text" 
+        placeholder="Filter by city" 
+        #filter 
+        (input)="filterResults(filter.value)" 
+      />
+      <button class="primary" type="button" (click)="filterResults(filter.value)">Search</button>
+    </form>
+</section>
+
+<section class="results">
+   @for(item of filteredLocationList; track item.id) {
+      <app-housing-location [housingLocation] = "item" ></app-housing-location>
+   }
+</section>
+
+<!-- power app pages addition -->
+<!-- <section>
+  <div>
+    <button class="primary" type="button">
+      <a href="https://apps.powerapps.com/play/e/default-0d50f09d-b59b-4178-9dae-59f9a97fa173/a/44edebb6-1b2f-4f75-92e2-0f837e92311b?tenantId=0d50f09d-b59b-4178-9dae-59f9a97fa173&hint=021ed9fe-9ad8-46ec-8f60-900de22111dd&sourcetime=1717149974362" target="_blank">powerAppsLink</a>
+    </button>
+    <iframe src="https://web.powerapps.com/apps/44edebb6-1b2f-4f75-92e2-0f837e92311b" width="100%" height="600px"></iframe>
+
+   
+  </div>
+</section> -->
+
+</section>
+
+</main>
